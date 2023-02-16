@@ -7,7 +7,8 @@ def send_email(message, receiver="zesun@ucsd.edu"):
     port = 465
 
     username = "your-gmail-name@gmail.com"
-    user_password = ""
+    user_password = "YOUR_PASSWORD"
+    #Enable 2-step at Google account before using
 
     context = ssl.create_default_context()
 
